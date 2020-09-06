@@ -16,6 +16,9 @@ function! fern#mapping#mark_children#init(disable_default_mappings) abort
   nmap <buffer> <Plug>(fern-action-mark-children:set) <Plug>(fern-action-mark-children:set:node)
   nmap <buffer> <Plug>(fern-action-mark-children:unset) <Plug>(fern-action-mark-children:unset:node)
   nmap <buffer> <Plug>(fern-action-mark-children:toggle) <Plug>(fern-action-mark-children:toggle:node)
+  nmap <buffer> <Plug>(fern-action-mark-children:node) <Plug>(fern-action-mark-children:toggle:node)
+  nmap <buffer> <Plug>(fern-action-mark-children:leaf) <Plug>(fern-action-mark-children:toggle:leaf)
+  nmap <buffer> <Plug>(fern-action-mark-children:branch) <Plug>(fern-action-mark-children:toggle:branch)
   nmap <buffer> <Plug>(fern-action-mark-children) <Plug>(fern-action-mark-children:toggle)
 endfunction
 

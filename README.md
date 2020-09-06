@@ -11,6 +11,9 @@ This plugin automatically add the following actions.
 | Mapping | Action                        | Description                                           |
 | ------- | ----------------------------- | ----------------------------------------------------- |
 |         | `mark-children`               | An alias to `mark-children:toggle`                    |
+|         | `mark-children:node`          | An alias to `mark-children:toggle:node`               |
+|         | `mark-children:leaf`          | An alias to `mark-children:toggle:leaf`               |
+|         | `mark-children:branch`        | An alias to `mark-children:toggle:branch`             |
 |         | `mark-children:set`           | An alias to `mark-children:set:node`                  |
 |         | `mark-children:unset`         | An alias to `mark-children:unset:node`                |
 |         | `mark-children:toggle`        | An alias to `mark-children:toggle:node`               |

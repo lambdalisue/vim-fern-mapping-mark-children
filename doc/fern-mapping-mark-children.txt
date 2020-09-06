@@ -39,6 +39,18 @@ MAPPING				*fern-mapping-mark-children-mapping*
 	An alias to "mark-children:toggle:node" action. Users can overwrite
 	this mapping to change the behavior of "mark-children:toggle" action.
 
+*<Plug>(fern-action-mark-children:node)*
+	An alias to "mark-children:toggle:node" action. Users can overwrite
+	this mapping to change the behavior of "mark-children:node" action.
+
+*<Plug>(fern-action-mark-children:leaf)*
+	An alias to "mark-children:toggle:leaf" action. Users can overwrite
+	this mapping to change the behavior of "mark-children:leaf" action.
+
+*<Plug>(fern-action-mark-children:branch)*
+	An alias to "mark-children:toggle:branch" action. Users can overwrite
+	this mapping to change the behavior of "mark-children:branch" action.
+
 *<Plug>(fern-action-mark-children)*
 	An alias to "mark-children:toggle" action. Users can overwrite this
 	mapping to change the behavior of "mark-children" action.
