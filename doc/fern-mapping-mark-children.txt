@@ -1,0 +1,47 @@
+*fern-mapping-mark-children.txt*	Fern mapping to mark children
+
+Author:  Alisue <lambdalisue@hashnote.net>
+License: MIT license
+
+=============================================================================
+CONTENTS			*fern-mapping-mark-children-contents*
+
+MAPPING				|fern-mapping-mark-children-mapping|
+
+
+=============================================================================
+MAPPING				*fern-mapping-mark-children-mapping*
+
+*<Plug>(fern-action-mark-children:set:node)*
+*<Plug>(fern-action-mark-children:set:leaf)*
+*<Plug>(fern-action-mark-children:set:branch)*
+	Set marks on child nodes/leafs/branches of the cursor node.
+
+*<Plug>(fern-action-mark-children:unset:node)*
+*<Plug>(fern-action-mark-children:unset:leaf)*
+*<Plug>(fern-action-mark-children:unset:branch)*
+	Unset marks on child nodes/leafs/branches of the cursor node.
+
+*<Plug>(fern-action-mark-children:toggle:node)*
+*<Plug>(fern-action-mark-children:toggle:leaf)*
+*<Plug>(fern-action-mark-children:toggle:branch)*
+	Toggle marks on child nodes/leafs/branches of the cursor node.
+
+*<Plug>(fern-action-mark-children:set)*
+	An alias to "mark-children:set:node" action. Users can overwrite this
+	mapping to change the behavior of "mark-children:set" action.
+
+*<Plug>(fern-action-mark-children:unset)*
+	An alias to "mark-children:unset:node" action. Users can overwrite
+	this mapping to change the behavior of "mark-children:unset" action.
+
+*<Plug>(fern-action-mark-children:toggle)*
+	An alias to "mark-children:toggle:node" action. Users can overwrite
+	this mapping to change the behavior of "mark-children:toggle" action.
+
+*<Plug>(fern-action-mark-children)*
+	An alias to "mark-children:toggle" action. Users can overwrite this
+	mapping to change the behavior of "mark-children" action.
+
+=============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
